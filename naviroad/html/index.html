@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=2.0">
+
+    <!-- 포털사이트에 노출되는 PC website 정보-->
+    
+    <!--포털사이트에 노출되는 모바일 website 정보-->
+
+    <title> NAVIROAD : : official</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+
+
+
+    <!--설명:html5 태그 ie 9 버전 미만일때 적용 스크립트-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--설명:IE6, IE7, IE8이 제대로 알아듣지 못하는 CSS도 사용가능 -->
+    <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+
+    <!--설명:IE 8이하 브라우저에 미디어쿼리 인식 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!--설명:IE 8이하 브라우저에 placeholder 속성 사용 -->
+    <!--[if lt IE 9]>
+    <script src="script/placeholders.min.js"></script>
+    <![endif]-->
+
+    <!--설명:nth-child ie 8버전 이하에서 사용 -->
+    <!--[if lt IE 9]>
+    <script src="script/selectivizr-min.js"></script>
+    <![endif]-->
+
+    <script src="script/ie-checker-min.js"></script>
+
+    <!--설명:IE8버전 이하에서 접속할경우 메시지보이기 -->
+    <!--[if lte IE 8]>
+    <p style="font-size: 12px; color: #fff; background: #2885b0; padding:5px 0; margin: 0; text-align: center">사용하고 계신 브라우저는 최신 웹 브라우저가 아닙니다. 업그레이드를 하거나 다른 최신 브라우저 사용을 권장합니다.
+    <a href="http://www.microsoft.com/korea/ie" target="_blank" >익스플로러,</a>
+    <a href="http://www.mozilla.or.kr/ko/" target="_blank">파이어폭스,</a>
+    <a href="http://kr.opera.com/download/" target="_blank">오페라,</a>
+    <a href="http://support.apple.com/kb/DL1531?viewlocale=ko_KR&locale=ko_KR" target="_blank">사파리,</a>
+    <a href="http://www.google.com/chrome?hl=ko" target="_blank">크롬</a></p>
+    <![endif]-->
+
+
+
+
+</head>
+
+<body>
+
+   
+<!--   header include-->
+   
+     <div id="header">
+        <div class="topset">
+            <h1><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+            <div class="topmenu">
+
+                <!-- 로그인 전 -->
+<!--
+                <ul class="login">
+                    <li><a class="btn" href="#">로그인</a></li>
+                    <li><a href="#">ADMIN</a></li>
+                </ul>
+-->
+                <!-- 로그인 후 -->
+<!--
+                <ul class="logout">
+                    <li><a class="btn" href="#">로그아웃</a></li>
+                    <li><a href="#">ADMIN</a></li>
+                </ul>
+-->
+            <img class="zbxe_widget_output" widget="login_info" skin="clara_login" />
+
+            </div>
+            <div class="gnb">
+                <ul>
+                    <li>
+                        <a href="sub01_01.html">회사소개</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">인사말</a></li>
+                            <li><a href="sub01_02.html">연혁</a></li>
+                            <li><a href="sub01_04.html">조직구성</a></li>
+                            <li><a href="sub01_06.html">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">연구개발</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">연구소소개</a></li>
+                            <li><a href="sub01_02.html">기술소개</a></li>
+                            <li><a href="sub01_03.html">특허인증</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">제품소개</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">내비게이션</a></li>
+                            <li><a href="sub01_02.html">블랙박스</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">커뮤니티</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">게시판&amp;공지사항</a></li>
+                            <li><a href="sub01_02.html">보도자료</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">상담신청</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">상담 및 견적문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!--            햄버거 버튼들-->
+            <div class="btn_hamberg">
+                <span></span>
+            </div>
+
+            
+
+
+            <!--           모바일 좌측 사이드 메뉴-->
+            <div class="gnb_mobile_wrap">
+                <div class="overlay"></div>
+                <div class="gnb_mobile">
+                    <h1><img src="images/logo.png" alt="logo"></h1>
+
+                    <img class="zbxe_widget_output" widget="login_info" skin="clara_login_mobile" />
+                    
+
+                       <div class="gnb_mo">
+                        <ul>
+                            <li>
+                                <a href="#">회사소개</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">인사말</a></li>
+                                    <li><a href="sub01_02.html">연혁</a></li>
+                                    <li><a href="sub01_04.html">조직구성</a></li>
+                                    <li><a href="sub01_06.html">찾아오시는길</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">연구개발</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">연구소소개</a></li>
+                                    <li><a href="sub01_02.html">기술소개</a></li>
+                                    <li><a href="sub01_03.html">특허인증</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">제품소개</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">내비게이션</a></li>
+                                    <li><a href="sub01_02.html">블랙박스</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">커뮤니티</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">게시판&amp;공지사항</a></li>
+                                    <li><a href="sub01_02.html">보도자료</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">상담신청</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">상담 및 견적문의</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+            
+<!--            sns 버튼-->
+            <div class="btn_sns">
+                <img src="images/sns_icon.svg" alt="sns">
+            </div>
+            
+            
+            
+<!--            sns 박스-->
+            <div class="sns_box">
+                <ul>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_10.png" alt="naver">
+                            <span>네이버</span>스토어
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_13.png" alt="naver">
+                            <span>네이버</span>공식카페
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_15.png" alt="naver">
+                            <span>네이버</span>사용자카페
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_15.png" alt="naver">
+                            <span>네이버</span>공식블로그
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_17.png" alt="naver">
+                            <span>네이버</span>바로가기
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+   
+   
+    <div id="visual_main">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/visual_main01.jpg" alt="visual01" class="visual_pc">
+                    <img src="images/visual_mo01.jpg" alt="visual01" class="visual_mo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/visual_main01.jpg" alt="visual02" class="visual_pc">
+                    <img src="images/visual_mo01.jpg" alt="visual02" class="visual_mo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/visual_main01.jpg" alt="visual03" class="visual_pc">
+                    <img src="images/visual_mo01.jpg" alt="visual02" class="visual_mo">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <!--
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+-->
+        </div>
+    </div>
+
+    <div id="section1">
+        <div class="prod_wrap">
+            <h2><img src="images/small_logo.png" alt="logo2">추천제품<span>안전을 위한 최고의 선택!</span></h2>
+
+            <div class="prod_top">
+                <ul>
+                    <li>
+                        <div class="text">
+                            <h3>전방추돌 경고시스템</h3>
+                            <p>주행속도 30Km/h  이상일 경우 작동되는 FCWS는
+                                앞차와의 거리를 고려하여 위험 경보를 3단계로 구분하여
+                                내비게이션의 화면과 소리로 경고 안내합니다.</p>
+                        </div>
+                    </li>
+
+                    <li class="right">
+                        <div class="text">
+                            <h3>앞 차 출발 알림 기능</h3>
+                            <p>앞 차 출발 알림은 신호대기 중이나 막히는길 위에서
+                                앞 차가 출발 할경우, 앞 차의 출발 여부를 인식하여
+                                화면과 신호음을 알려주는 지능형 안내 시스템입니다.   </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="text">
+                            <h3>신호등 변경 알림</h3>
+                            <p>신호대기 중 녹색등이 점등되는 순간 <br>화면과 소리로 안내합니다.</p>
+                        </div>
+                        
+                    </li>
+
+                    <li class="right">
+                        <div class="text">
+                            <h3>차선 이탈 경보 시스템</h3>
+                            <p>졸음운전이나 악천후 속에서 운전을 할 경우에 <br>
+                                차선 이탈에 의한 사고 발생 위험이 증가합니다. <br>
+                                고도화된 시스템으로 주행 중인 차선을 정확히 인식하고<br>
+                                차선을 넘어갈 경우 위험상황으로 판단하여 <br>
+                                화면과 소리로 경고합니다. </p>
+                        </div>
+                    </li>
+
+                    <li class="big">
+                        <div class="swiper-big">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./images/prod_big_img01.png" alt="big01">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+                <div class="bg_blue"></div>
+
+            </div>
+
+            <div class="prod_bottom">
+                <ul>
+                    <li class="thumb"><img src="images/prod_b01.jpg" alt="prod01"></li>
+                    <li>
+                        <h3>HUD 연동</h3>
+                    </li>
+                    <li class="ex">HUD 연동으로 안전성과 편의성까지!</li>
+                </ul>
+                <ul>
+                    <li class="thumb"><img src="images/prod_b02.jpg" alt="prod02"></li>
+                    <li>
+                        <h3>빅데이터 활용</h3>
+                    </li>
+                    <li class="ex">빅데이터를 활용한 교통정보로 <br>가장 빠른 길 안내!</li>
+                </ul>
+                <ul>
+                    <li class="thumb"><img src="images/prod_b03.jpg" alt="prod03"></li>
+                    <li>
+                        <h3>현실감 있는 텍스쳐 </h3>
+                    </li>
+                    <li class="ex">도로와 건물의 질감을 살려 <br>초행길도 헤메지 않고 <br>목적지를 잘 찾아갈 수 있게 도와드립니다! </li>
+                </ul>
+                <ul>
+                    <li class="thumb"><img src="images/prod_b04.jpg" alt="prod04"></li>
+                    <li>
+                        <h3>쿼드코어 CPU</h3>
+                    </li>
+                    <li class="ex">내비게이션의 안내를 받으며 <br>음악 재생을 동시에 해도 <br>부드럽고 안정적인 퍼포먼스를 <br>느끼실 수 있습니다!</li>
+                </ul>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="section2">
+        <div class="section2_box">
+
+            <div class="btn_box">
+                <a href="sub01_01.html">
+                    <ul class="btns">
+                        <li class="icon"><img src="images/icon_34.png" alt="icon"></li>
+                        <li class="subject">02 - 123 - 4567</li>
+                        <li class="exp">
+                            <span>평일</span>
+                            <span>09:00~17:30</span>
+                            <span>주말(토)</span>
+                            <span>09:00~12:30</span>
+                        </li>
+                    </ul>
+                </a>
+                <a href="sub01_01.html">
+                    <ul class="btns">
+                        <li class="icon"><img src="images/icon_37.png" alt="icon"></li>
+                        <li class="subject">상담예약</li>
+                        <li class="exp">지금 바로 신청 가능합니다.</li>
+                    </ul>
+                </a>
+                <a href="sub01_01.html">
+                    <ul class="btns">
+                        <li class="icon"><img src="images/icon_41.png" alt="icon"></li>
+                        <li class="subject">업데이트</li>
+                        <li class="exp">내비게이션 업데이트를<br>확인하고 설치하실 수 있습니다.</li>
+                    </ul>
+                </a>
+                <a href="sub01_01.html">
+                    <ul class="btns">
+                        <li class="icon"><img src="images/icon_42.png" alt="icon"></li>
+                        <li class="subject">인증특허</li>
+                        <li class="exp">내비로드의 연구성과와 노력을 알 수 있습니다.</li>
+                    </ul>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="section3">
+        <img src="images/sec03.jpg" alt="textimg" class="section3_pc">
+        <img src="images/sec03_mo.jpg" alt="textimg" class="section3_mo">
+    </div>
+
+
+<!--    footer include-->
+<div id="footer">
+        <div class="address">
+            상호:내비로드 / 대표자:가나다/ 사업자번호:1101234589 <br>
+            서울 금천구 벚꽃로 IT벤처센터 1111호/<br class="br_mo"> ☎02-123-4567, FAX 02-123-4568 <br>
+            COPYRIGHT(C) ALL RIGHTS RESERVED.
+        </div>
+    </div>
+
+   
+ 
+<!-- quick include-->
+ 
+
+
+
+
+    <script src="script/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'fade',
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+
+    <script>
+        var swiper = new Swiper('.swiper-big', {
+            effect: 'slide',
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }
+        });
+
+    </script>
+
+
+    <script src="script/jquery-3.4.1.js"></script>
+    <script src="script/action.js"></script>
+
+
+</body>
+
+</html>

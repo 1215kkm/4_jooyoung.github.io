@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=2.0">
+
+    <!-- 포털사이트에 노출되는 PC website 정보-->
+    
+    <!--포털사이트에 노출되는 모바일 website 정보-->
+
+    <title> NAVIROAD : : official</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+
+
+
+
+    <!--설명:html5 태그 ie 9 버전 미만일때 적용 스크립트-->
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--설명:IE6, IE7, IE8이 제대로 알아듣지 못하는 CSS도 사용가능 -->
+    <!--[if lt IE 9]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+    <![endif]-->
+
+    <!--설명:IE 8이하 브라우저에 미디어쿼리 인식 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!--설명:IE 8이하 브라우저에 placeholder 속성 사용 -->
+    <!--[if lt IE 9]>
+    <script src="script/placeholders.min.js"></script>
+    <![endif]-->
+
+    <!--설명:nth-child ie 8버전 이하에서 사용 -->
+    <!--[if lt IE 9]>
+    <script src="script/selectivizr-min.js"></script>
+    <![endif]-->
+
+    <script src="script/ie-checker-min.js"></script>
+
+    <!--설명:IE8버전 이하에서 접속할경우 메시지보이기 -->
+    <!--[if lte IE 8]>
+    <p style="font-size: 12px; color: #fff; background: #2885b0; padding:5px 0; margin: 0; text-align: center">사용하고 계신 브라우저는 최신 웹 브라우저가 아닙니다. 업그레이드를 하거나 다른 최신 브라우저 사용을 권장합니다.
+    <a href="http://www.microsoft.com/korea/ie" target="_blank" >익스플로러,</a>
+    <a href="http://www.mozilla.or.kr/ko/" target="_blank">파이어폭스,</a>
+    <a href="http://kr.opera.com/download/" target="_blank">오페라,</a>
+    <a href="http://support.apple.com/kb/DL1531?viewlocale=ko_KR&locale=ko_KR" target="_blank">사파리,</a>
+    <a href="http://www.google.com/chrome?hl=ko" target="_blank">크롬</a></p>
+    <![endif]-->
+
+
+
+
+</head>
+
+<body>
+<!--    header include-->
+   
+    <div id="header">
+        <div class="topset">
+            <h1><a href="index.html"><img src="images/logo.png" alt="logo"></a></h1>
+            <div class="topmenu">
+
+                <!-- 로그인 전 -->
+<!--
+                <ul class="login">
+                    <li><a class="btn" href="#">로그인</a></li>
+                    <li><a href="#">ADMIN</a></li>
+                </ul>
+-->
+                <!-- 로그인 후 -->
+<!--
+                <ul class="logout">
+                    <li><a class="btn" href="#">로그아웃</a></li>
+                    <li><a href="#">ADMIN</a></li>
+                </ul>
+-->
+            <img class="zbxe_widget_output" widget="login_info" skin="clara_login" />
+
+            </div>
+            <div class="gnb">
+                <ul>
+                    <li>
+                        <a href="sub01_01.html">회사소개</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">인사말</a></li>
+                            <li><a href="sub01_02.html">연혁</a></li>
+                            <li><a href="sub01_04.html">조직구성</a></li>
+                            <li><a href="sub01_06.html">찾아오시는길</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">연구개발</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">연구소소개</a></li>
+                            <li><a href="sub01_02.html">기술소개</a></li>
+                            <li><a href="sub01_03.html">특허인증</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">제품소개</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">내비게이션</a></li>
+                            <li><a href="sub01_02.html">블랙박스</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">커뮤니티</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">게시판&amp;공지사항</a></li>
+                            <li><a href="sub01_02.html">보도자료</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="sub01_01.html">상담신청</a>
+                        <ul class="lnb">
+                            <li><a href="sub01_01.html">상담 및 견적문의</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!--            햄버거 버튼들-->
+            <div class="btn_hamberg">
+                <span></span>
+            </div>
+
+            
+
+
+            <!--           모바일 좌측 사이드 메뉴-->
+            <div class="gnb_mobile_wrap">
+                <div class="overlay"></div>
+                <div class="gnb_mobile">
+                    <h1><img src="images/logo.png" alt="logo"></h1>
+
+                    <img class="zbxe_widget_output" widget="login_info" skin="clara_login_mobile" />
+                    
+
+                    <div class="gnb_mo">
+                        <ul>
+                            <li>
+                                <a href="#">회사소개</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">인사말</a></li>
+                                    <li><a href="sub01_02.html">연혁</a></li>
+                                    <li><a href="sub01_04.html">조직구성</a></li>
+                                    <li><a href="sub01_06.html">찾아오시는길</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">연구개발</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">연구소소개</a></li>
+                                    <li><a href="sub01_02.html">기술소개</a></li>
+                                    <li><a href="sub01_03.html">특허인증</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">제품소개</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">내비게이션</a></li>
+                                    <li><a href="sub01_02.html">블랙박스</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">커뮤니티</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">게시판&amp;공지사항</a></li>
+                                    <li><a href="sub01_02.html">보도자료</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="#">상담신청</a>
+                                <ul class="lnb">
+                                    <li><a href="sub01_01.html">상담 및 견적문의</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            
+<!--            sns 버튼-->
+            <div class="btn_sns">
+                <img src="images/sns_icon.svg" alt="sns">
+            </div>
+            
+            
+            
+<!--            sns 박스-->
+            <div class="sns_box">
+                <ul>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_10.png" alt="naver">
+                            <span>네이버</span>스토어
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_13.png" alt="naver">
+                            <span>네이버</span>공식카페
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_15.png" alt="naver">
+                            <span>네이버</span>사용자카페
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_15.png" alt="naver">
+                            <span>네이버</span>공식블로그
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.naver.com" target="_blank">
+                            <img src="images/btn_quick_17.png" alt="naver">
+                            <span>네이버</span>바로가기
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+   
+   
+    <div id="visual_sub">
+        
+    </div>
+    
+    <div id="snb_wrap">
+        <div class="snb">
+            <ul>
+                <li class="active"><a href="sub01_01.html">인사말</a></li>
+                <li><a href="sub01_02.html">연혁</a></li>
+                <li><a href="sub01_04.html">조직구성</a></li>
+                <li><a href="sub01_06.html">찾아오시는길</a></li>
+
+            </ul>
+
+            <span class="circle"></span>
+        </div>
+   </div>
+   
+   
+    <div id="section_sub_wrap">
+        <div class="greeting">
+            <h2>인사말<span>NAVIROAD GREETING</span></h2>
+            <img src="./images/greeting_visual.jpg" alt="greeting" class="grt_v_pc">
+            <img src="./images/greeting_visual_mobile.png" alt="greeting" class="grt_v_mo">
+            <div class="greeting_text">
+                <p>
+                    <span>안녕하십니까? <br class="mo"> 대표이사 김철수입니다.</span><br>
+                    우리 내비로드는 2000년  탄생한 20여년 역사의 장인기업으로 한국 내비게이션 개발의 중심입니다.<br><br> 올바르고 튼튼한 주춧돌만이 거대한 건축물을 세울 수 있듯 <br class="pc"> 내비로드는 축적된 기술과 오랜 제품개발의 역량을 응집해 최상의 품질만을 고집하고 있습니다.  <br><br> 오랜 시간 신뢰로 연결된 고객과의 소통을 통해 고객의 어려움을 공감하며 그것을 기술적 영감으로 승화시켜 온 내비로드는 <br class="pc"> 지구촌에 선한 영향력을 심기위해 록우산어린이재단사업의 프로젝트 일환으로 기부금 및 직원 봉사활동 등 사회공헌사업에도 정성을 쏟고 있습니다.<br><br> 앞으로 우리는 새 시대의 니즈에 맞춰 운전자들의 안정감을 높이기 위하여 내비게이션에 첨단의 기술역량을 더해<br class="pc"> 사업을 확장해 갈 것이며 우리가 추구하는 기술혁신이 고객의 삶을 향상시킬 수  있다는 자부심으로 끊임없이 단련해 나갈 것입니다. <br> <br> 이처럼 우리는 몸집만 부풀리는 회사가 아닌 내실있고 충만한 회사로 고객의 삶에 가치를 더 하는 평생의 동반자가 되기 위하여 <br class="pc">지금까지 축적된 내공에 도약의 새 비전과 포부를 담아  새로운 100년을 향해 나아갈 것을 약속합니다.<br><br> 한결같이 걸어 온 우리의 진심에 항상 손뼉을 쳐 준 고객분들에게  이 자리를 빌어 감사의 인사를 드립니다. <br> 앞으로도 내비로드는 고객과 함께 성장하고 더 높이 도약하겠습니다. <br> 감사합니다.
+                </p>
+                <img src="images/boss_sign.jpg" alt="sign">
+            </div>
+        </div>
+        
+        <div class="introduce">
+            <h2>회사소개<span>INTRODUCE</span></h2>
+            <div class="intro_top">
+                <h3>'기술과 품질로 존경받는 회사'</h3>
+                <p>  한국의 쟁쟁한 내비게이션 산업 현실에서 굳건히 20여 년을 이어온 장인기업 내비로드(주)는 한국 내비게이션 산업의 선도기업입니다.<br><br>개업 당시 부족한 기술자의 수에도 불구하고 대표이사 김철수는 직접 발로 뛰며 공부했고, 그의 노력을 알아본 기술자들이 
+                내비로드로 모이기 시작했습니다. <br class="pc">대표이사 김철수와 기술자들은 향상된 기술과 최고 품질에 대한  염원으로 회사의 터전을 만드는데 인생을 바치고 있습니다.</p>
+            </div>
+            <div class="intro_middle">
+                <h3>'언제 어디서나 빛나는 조력자'</h3>
+                <p>그리고 지금 20년 째 기업을 이어가고 있는 내비로드는 지난 2000년 취임한  김철수 대표가 2007년 글로벌 기업으로 거듭나고자<br class="pc">주식회사로 법인전환을 하였습니다. 또한 김철수 대표는 명실상부 세계 최고의 내비게이션 제작업체로 도약하기 위해 내비게이션을 비롯해 개인 맞춤형 제작으로<br class="pc">사업을 확대하였으며 2012년 기술부설 연구소를 설립해 다수의 특허를 취득  하는 등 회사의 역량강화에 집중해 왔습니다.<br><br>‘믿음’ ‘신뢰’ ‘봉사’의 창업정신을 이어 장수기업의 가치를 유지, 전승하되  우리를 찾는 고객들이 “누구나 삶의 충만감을 영위할 수 있도록 빛나는 조력자가 되자“는<br class="pc">핵심가치를 바탕으로 독보적인 기술혁신과 더 안전한 소재 개발에 박차를 가해 왔습니다.<br><br>한 분야에서 살아남는 것은 결코 녹록한 일이 아닙니다.<br>급변하는 산업환경에서 비롯되는 수많은 경영위기에도 불구하고 내비로드가 오늘까지 성장할 수 있었던 것은 가능성으로 가득한 삶, 충일한 삶을 선물하겠다는 <br class="pc"> 조력자로서의 철학이 있었기 때문입니다.<br>헬런 켈러에게는 스승인 앤 설리반이 있었고, 고흐에게는 동생 테오가 있었습니다.<br>그리고 모든 모든 운전자들의 뒤에는 우리 내비로드(주)가 있습니다.   <br class="pc">
+            </div>
+            <div class="intro_bottom">
+                <h3>'새로운 100년을 향해 달린다'</h3>
+                <p>우리가 지향하는 것은 모든 사람이 안전한 라이프 스타일을 영위하는 것입니다. 우리가 존재하는 이유는 불가능해 보이는 것을 가능하게 하여 더 많은 사람들의 필요를 <br class="pc">채워줄 수 있는 기술을 선보이기 위함입니다.<br>그것이 어려움에 공감하는 조력자의 일이며 고객의 삶을 빛나게 하는  우리의 소명입니다. <br><br>이제 우리는 20년 기업이 됩니다.<br>오직 한 길을 걸어 갈 내비로드는 지금의 명성과 찬사에 안주하지 않겠습니다.<br><br>매일(Every Day)  꿈꾸고 매번(Everlasting) 성장하며 매사(Every Business) 더 성실하겠습니다.</p>
+            </div>
+            <img src="images/greeting_bottom_logo.jpg" alt="logo" class="grt_btm_pc">
+            <p>앞으로 전개될 새로운 100년의 도전, 그 힘찬 활약을 지켜봐 주십시오. <br>우수한 품질과 대외적 공신력을 바탕으로 도래할 새로운 100년의 역사를 여러분과 영원히 함께 하겠습니다.</p>
+            <img src="images/greeting_bottom_logo_mo.jpg" alt="logo" class="grt_btm_mo">
+        </div>
+    </div>
+
+
+   
+   
+   
+   
+    <!--    footer include-->
+<div id="footer">
+        <div class="address">
+            상호:내비로드 / 대표자:가나다/ 사업자번호:1101234589 <br>
+            서울 금천구 벚꽃로 IT벤처센터 1111호/<br class="br_mo"> ☎02-123-4567, FAX 02-123-4568 <br>
+            COPYRIGHT(C) ALL RIGHTS RESERVED.
+        </div>
+    </div>
+
+   
+
+<!--quick include-->
+ 
+
+
+
+
+
+
+    <script src="script/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'fade',
+            spaceBetween: 0,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+    </script>
+
+    <script>
+        var swiper = new Swiper('.swiper-big', {
+            effect: 'slide',
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            }
+        });
+
+    </script>
+
+
+    <script src="script/jquery-3.4.1.js"></script>
+    <script src="script/jquery-ui.min.js"></script>
+    <script src="script/action.js"></script>
+    
+
+</body>
+
+</html>

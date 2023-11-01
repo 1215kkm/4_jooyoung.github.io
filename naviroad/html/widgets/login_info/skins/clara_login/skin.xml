@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+    <title xml:lang="ko">clara login widget</title>
+    <title xml:lang="en">clara login widget</title>
+    <version>1.7</version>
+    <date>2013-11-27</date>
+    <author email_address="developer@xpressengine.com" link="http://xpressengine.com/">
+        <name xml:lang="ko">clara</name>
+        <name xml:lang="en">clara</name>
+    </author>
+</skin>

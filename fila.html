@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--폰트어썸-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <style>
+        * {margin: 0; padding: 0;}
+        html,body {margin: 0; padding: 0; width: 100%;}
+        img {width: 100%; vertical-align: top}
+        button {width: 50px; height: 50px; border-radius: 50%; position: fixed; bottom: 20px; right: 20px; font-size: 50px; text-align: center; line-height: 50px; color: #fff; background: transparent; border: 0; cursor: pointer;}
+        .left {right: 80px;}
+        .sub {display: none;}
+        
+    </style>
+</head>
+<body>
+    <img src="images/fila_ori_page.jpg" alt="fila" class="main">
+    <img src="images/fila_ori_subpage.jpg" alt="fila" class="sub">
+    
+    <button class="left"><i class="fas fa-arrow-circle-left"></i></button>
+    <button class="right"><i class="fas fa-arrow-circle-right"></i></button>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="script/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.left').click(function(){
+                $('.sub').hide();
+                $('.main').show();
+            })
+            $('.right').click(function(){
+                $('.main').hide();
+                $('.sub').show();
+            })
+            
+        })
+    </script>
+    
+    
+</body>
+</html>

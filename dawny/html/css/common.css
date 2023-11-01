@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+
+
+
+/*Reset*/
+    
+* {margin: 0; padding: 0;}
+body {letter-spacing: -0.05em; font-family: '나눔스퀘어', 'nanumsquare', sans-serif; background: #fff;}
+li {list-style: none}
+a {text-decoration: none; color:#333}
+h1, h2, h3, h4, h5, h6 { font-weight: normal;}
+img, fieldset {border: 0;}
+img {vertical-align: middle;}
+button, input, textarea {outline: 0}
+legend {font-size: 0; width: 0; height: 0; overflow: hidden; text-indent: -9999px; color:transparent}
+::selection {background-color: #136b8d; color: yellow;}
